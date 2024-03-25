@@ -1,6 +1,6 @@
-Thanks for downloading this template!
+Thanks for working with shoovisual
 
-Template Name: Arsha
-Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-Author: BootstrapMade.com
-License: https://bootstrapmade.com/license/
+Template Name: Kilimo Bando
+Template URL: https://kilimobando.co.tz
+Author: https://shoovisual.com
+
