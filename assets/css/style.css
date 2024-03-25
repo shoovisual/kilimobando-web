@@ -185,7 +185,7 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 5px 15px;
+    padding: 7px 15px;
     margin: 5px 10px;
     font-size: 16px;
     font-weight: 400;
@@ -199,14 +199,24 @@ a:hover {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 7px 20px;
+    padding: 10px 20px;
     margin-left: 20px;
     font-size: 16px;
     font-weight: 400;
+    border-radius: 5px;
     background-color: var(--secondary-color);
     white-space: nowrap;
     color: #fff;
     transition: 0.3s;
+}
+
+.contact-btn button:hover a {
+    background-color: transparent;
+    color: #ddd;
+}
+
+.contact-btn button:hover {
+    background-color: #034e2a;
 }
 
 .navbar a i,
@@ -220,8 +230,9 @@ a:hover {
 .navbar .active,
 .navbar .active:focus,
 .navbar li:hover>a {
-    color: #fff;
-    font-weight: 600;
+    color: var(--primary-color);
+    border-radius: 5px;
+    background-color: #fff;
 }
 
 .navbar .getstarted,
@@ -253,12 +264,9 @@ a:hover {
     margin: 0;
     padding: 10px 0;
     z-index: 99;
-    /* opacity: 0; */
-    /* visibility: hidden; */
     transition: 0.3s;
     border-radius: 4px;
     background-color: #fff;
-    /* separator */
     border-radius: .5rem;
     box-shadow: 0px 10px 40px rgba(0, 0, 0, .2);
     /* visibility: hidden; */
