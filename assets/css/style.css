@@ -1,26 +1,18 @@
-/**
-* Template Name: Arsha
-* Updated: Jan 09 2024 with Bootstrap v5.3.2
-* Template URL: https://bootstrapmade.com/arsha-free-bootstrap-html-template-corporate/
-* Author: BootstrapMade.com
-* License: https://bootstrapmade.com/license/
-*/
-
-
+/* Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Space+Grotesk:wght@300..700&display=swap");
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
 
 :root {
     --primary-color: #006635;
-    --secondary-color: #2FB95D;
+    --secondary-color: #2fb95d;
     --secondary-dark-color: #19893e;
-    --dark-color: #043A3A
+    --dark-color: #043a3a;
 }
 
 body {
-    /* font-family: "Open Sans", sans-serif; */
-    font-family: "Bricolage Grotesque", sans-serif;
+    font-family: "Barlow", sans-serif;
     color: #444444;
 }
 
@@ -33,7 +25,6 @@ a:hover {
     color: #73c5eb;
     text-decoration: none;
 }
-
 
 /*--------------------------------------------------------------
 # Preloader
@@ -73,7 +64,6 @@ a:hover {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Back to top button
 --------------------------------------------------------------*/
@@ -107,7 +97,6 @@ a:hover {
     visibility: visible;
     opacity: 1;
 }
-
 
 /*--------------------------------------------------------------
 # Header
@@ -154,11 +143,9 @@ a:hover {
     max-height: 40px;
 }
 
-
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
-
 
 /**
 * Desktop Navigation 
@@ -229,7 +216,7 @@ a:hover {
 .navbar a:hover,
 .navbar .active,
 .navbar .active:focus,
-.navbar li:hover>a {
+.navbar li:hover > a {
     color: var(--primary-color);
     border-radius: 5px;
     background-color: #fff;
@@ -267,8 +254,8 @@ a:hover {
     transition: 0.3s;
     border-radius: 4px;
     background-color: #fff;
-    border-radius: .5rem;
-    box-shadow: 0px 10px 40px rgba(0, 0, 0, .2);
+    border-radius: 0.5rem;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.2);
     /* visibility: hidden; */
     /* pointer-events: none; */
     /* display: flex; */
@@ -309,7 +296,6 @@ a:hover {
     color: #333;
 }
 
-
 /* .tab-content .tab-pane {
     display: none;
 }
@@ -336,11 +322,11 @@ a:hover {
 
 .navbar .dropdown ul a:hover,
 .navbar .dropdown ul .active:hover,
-.navbar .dropdown ul li:hover>a {
+.navbar .dropdown ul li:hover > a {
     color: var(--secondary-color);
 }
 
-.navbar .dropdown:hover>ul {
+.navbar .dropdown:hover > ul {
     opacity: 1;
     top: 100%;
     visibility: visible;
@@ -352,7 +338,7 @@ a:hover {
     visibility: hidden;
 }
 
-.navbar .dropdown .dropdown:hover>ul {
+.navbar .dropdown .dropdown:hover > ul {
     opacity: 1;
     top: 0;
     left: 100%;
@@ -363,11 +349,10 @@ a:hover {
     .navbar .dropdown .dropdown ul {
         left: -90%;
     }
-    .navbar .dropdown .dropdown:hover>ul {
+    .navbar .dropdown .dropdown:hover > ul {
         left: -100%;
     }
 }
-
 
 /**
 * Mobile Navigation 
@@ -436,7 +421,7 @@ a:hover {
 
 .navbar-mobile a:hover,
 .navbar-mobile .active,
-.navbar-mobile li:hover>a {
+.navbar-mobile li:hover > a {
     color: var(--secondary-color);
 }
 
@@ -472,15 +457,14 @@ a:hover {
 
 .navbar-mobile .dropdown ul a:hover,
 .navbar-mobile .dropdown ul .active:hover,
-.navbar-mobile .dropdown ul li:hover>a {
+.navbar-mobile .dropdown ul li:hover > a {
     color: var(--secondary-color);
 }
 
-.navbar-mobile .dropdown>.dropdown-active {
+.navbar-mobile .dropdown > .dropdown-active {
     display: block;
     visibility: visible !important;
 }
-
 
 /*--------------------------------------------------------------
 # Hero Section
@@ -614,7 +598,6 @@ a:hover {
     }
 }
 
-
 /* Inner Page */
 
 .benefits {
@@ -670,7 +653,6 @@ a:hover {
     min-height: 290px;
 }
 
-
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -719,7 +701,6 @@ section {
     margin-bottom: 0;
 }
 
-
 /*--------------------------------------------------------------
 # About Us
 --------------------------------------------------------------*/
@@ -743,7 +724,7 @@ section {
     position: relative;
 }
 
-.about .content ul li+li {
+.about .content ul li + li {
     margin-top: 10px;
 }
 
@@ -781,7 +762,6 @@ section {
     text-decoration: none;
 }
 
-
 /*--------------------------------------------------------------
 # Why Us
 --------------------------------------------------------------*/
@@ -810,7 +790,6 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Skills
 --------------------------------------------------------------*/
@@ -832,7 +811,6 @@ section {
 .project-img img {
     border-radius: 10px;
 }
-
 
 /*--------------------------------------------------------------
 # Services
@@ -897,7 +875,6 @@ section {
     }
 }
 
-
 /*--------------------------------------------------------------
 # Cta
 --------------------------------------------------------------*/
@@ -956,7 +933,6 @@ section {
         border-left: none;
     }
 }
-
 
 /*--------------------------------------------------------------
 # Portfolio
@@ -1051,7 +1027,6 @@ section {
     opacity: 1;
 }
 
-
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
@@ -1100,7 +1075,7 @@ section {
     font-size: 15px;
 }
 
-.portfolio-details .portfolio-info ul li+li {
+.portfolio-details .portfolio-info ul li + li {
     margin-top: 10px;
 }
 
@@ -1117,7 +1092,6 @@ section {
 .portfolio-details .portfolio-description p {
     padding: 0;
 }
-
 
 /*--------------------------------------------------------------
 # Team
@@ -1214,10 +1188,9 @@ section {
     color: #fff;
 }
 
-.team .member .social a+a {
+.team .member .social a + a {
     margin-left: 8px;
 }
-
 
 /*--------------------------------------------------------------
 # Pricing
@@ -1344,7 +1317,6 @@ section {
     }
 }
 
-
 /* news-update */
 
 .news-update {
@@ -1364,7 +1336,6 @@ section {
     padding: 10px 0;
     font-weight: 600;
 }
-
 
 /*--------------------------------------------------------------
 # Contact
@@ -1471,7 +1442,7 @@ section {
     font-weight: 600;
 }
 
-.contact .php-email-form .error-message br+br {
+.contact .php-email-form .error-message br + br {
     margin-top: 25px;
 }
 
@@ -1532,7 +1503,7 @@ section {
     padding: 10px 12px;
 }
 
-.contact .php-email-form button[type=submit] {
+.contact .php-email-form button[type="submit"] {
     background: var(--secondary-color);
     border: 0;
     padding: 12px 34px;
@@ -1541,7 +1512,7 @@ section {
     border-radius: 50px;
 }
 
-.contact .php-email-form button[type=submit]:hover {
+.contact .php-email-form button[type="submit"]:hover {
     background: var(--secondary-dark-color);
 }
 
@@ -1553,7 +1524,6 @@ section {
         transform: rotate(360deg);
     }
 }
-
 
 /*--------------------------------------------------------------
 # Breadcrumbs
@@ -1587,17 +1557,16 @@ section {
     font-size: 14px;
 }
 
-.breadcrumbs ol li+li {
+.breadcrumbs ol li + li {
     padding-left: 10px;
 }
 
-.breadcrumbs ol li+li::before {
+.breadcrumbs ol li + li::before {
     display: inline-block;
     padding-right: 10px;
     color: #4668a2;
     content: "/";
 }
-
 
 /*--------------------------------------------------------------
 # Footer
@@ -1624,14 +1593,14 @@ section {
     text-align: left;
 }
 
-#footer .footer-newsletter form input[type=email] {
+#footer .footer-newsletter form input[type="email"] {
     border: 0;
     padding: 4px 8px;
     width: calc(100% - 100px);
     background-color: transparent;
 }
 
-#footer .footer-newsletter form input[type=submit] {
+#footer .footer-newsletter form input[type="submit"] {
     position: absolute;
     top: 0;
     right: 0;
@@ -1652,7 +1621,7 @@ section {
     color: #fff;
 }
 
-#footer .footer-newsletter form input[type=submit]:hover {
+#footer .footer-newsletter form input[type="submit"]:hover {
     background: var(--dark-color);
 }
 
